@@ -18,5 +18,7 @@ func main() {
 			fmt.Println("continuing loop")
 			continue
 		}
+		fmt.Println("the value of i", i)
 	}
+	fmt.Println("exit program")
 }
